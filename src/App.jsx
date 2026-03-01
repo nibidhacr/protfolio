@@ -551,7 +551,7 @@ export default function Portfolio() {
                 {[
                   {href:"mailto:nibidhacr@gmail.com",icon:"✉️",label:"EMAIL",val:"nibidhacr@gmail.com"},
                   {href:"tel:+919500311622",icon:"📱",label:"PHONE",val:"+91 9500311622"},
-                  {href:"https://www.linkedin.com/in/nibidha-rajkumar-7389b1290",icon:"💼",label:"LINKEDIN",val:"nibidha-rajkumar"},
+                  {href:"https://www.linkedin.com/in/nibidha-c-r-7389b1290",icon:"💼",label:"LINKEDIN",val:"nibidha-rajkumar"},
                 ].map(({href,icon,label,val})=>(
                   <a key={label} href={href} target={href.startsWith("http")?"_blank":undefined} rel="noreferrer" className="ci">
                     <span style={{fontSize:18}}>{icon}</span>
